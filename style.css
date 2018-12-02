@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Slabo 27px', serif;
+  background-color: #ddd;
+}
+
+#container {
+  width: 300px;
+  -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+#container .banner {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(40deg, #662D8C, #ED1E79);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container .banner .logo {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+#container .banner .logo i {
+  font-size: 30px;
+  color: #662D8C;
+}
+
+#container .content {
+  position: relative;
+  top: -30px;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#container .content .title {
+  color: #662D8C;
+  text-align: center;
+  margin: 10px auto auto;
+}
+
+#container .content .box {
+  height: 130px;
+}
+
+#container .content .box input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  outline: none;
+  background-color: transparent;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#container .content .box input:focus {
+  border-bottom: 2px solid #662D8C;
+}
+
+#container .content .box ::-webkit-input-placeholder {
+  color: #662D8C;
+}
+
+#container .content .box :-ms-input-placeholder {
+  color: #662D8C;
+}
+
+#container .content .box ::-ms-input-placeholder {
+  color: #662D8C;
+}
+
+#container .content .box ::placeholder {
+  color: #662D8C;
+}
+
+#container .content .box :-moz-placeholder {
+  color: #662D8C;
+}
+
+#container .content .box ::-webkit-input-placeholder {
+  color: #662D8C;
+}
+
+#container .content .box :-ms-input-placeholder {
+  color: #662D8C;
+}
+
+#container .content .box button {
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background: linear-gradient(40deg, #662D8C, #ED1E79);
+  background-position: 0;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 50px;
+  outline: none;
+  -webkit-box-shadow: 0 0 35px rgba(237, 30, 120, 0.425);
+          box-shadow: 0 0 35px rgba(237, 30, 120, 0.425);
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  font-size: 18px;
+}
+
+#container .content .box button:hover {
+  background-position: 155px 36px;
+}
+
+#container .forget {
+  text-align: center;
+}
+
+#container .forget a {
+  color: #aaa;
+}
+/*# sourceMappingURL=style.css.map */
